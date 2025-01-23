@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #ECE8DE;
+     font-family: "onest", sans-serif;
+    }
+
+    a {
+      
+      color:black
+    }
+    
+    h1 {
+      margin-bottom: 2px;
+    }
+  
+  
+.whole-div {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.columns {
+  display: flex;
+  gap: 50px;
+
+}
+.left,.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.photo-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 30px;
+    }
+    .photo {
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+      
+    }
+    .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-top: 20px;
+    }
+    .review {
+      background-color: rgb(73, 97, 65);
+      color: rgb(247, 245, 239);
+      width: 400px;
+      border-radius: 15px;
+    }
+.h2 {
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="whole-div">
+    <h1>Сливка Андрей Сергеевич</h1>
+    <h3 class="h2">Психиатр, психотерапевт, психолог</h2>
+    <div class="photo-div"><img class="photo" src="myProPhoto.png" alt="My Photo"></div>
+    <div class="columns">
+      <div class="left">
+        <h2>Отзывы:</h2>
+        <p><a href="https://prodoctorov.ru/spb/vrach/935839-slivka/otzivi/#rating">ПроДокторов</a></p>
+        <p><a href="https://www.emsclinic.ru/doctors/slivka-andrey-sergeevich">Клиника ЕМС</a></p>
+        <p><a href="https://n819238.yclients.com/company/767445/personal/menu/master-info/767445/2255431?o=m2255431">YClients</a></p>
+      </div>
+      <div class="right">
+        <h2>Контакты:</h2>
+        <p><a href="https://psychotherapistslivka.ru/main">Веб-сайт</a></p>
+        <p><a href="https://api.whatsapp.com/send/?phone=79817854087&text&type=phone_number&app_absent=0">WhatsApp</a></p>
+        <p><a href="https://t.me/psychotherapistslivka">Telegram</a></p>
+      </div>
+
+    </div>
+        <div class="text">
+        <div class="review">
+          <p>Буду благодарен вашим отзывам!</p>
+        </div>
+        <p>P.S. Если мы находимся в психотерапевтических отношениях, то отзыв лучше оставлять по завершению терапии</p>
+      </div>
+  </div>
+</body>
+</html>
